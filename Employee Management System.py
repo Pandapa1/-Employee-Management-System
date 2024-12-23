@@ -45,10 +45,10 @@ class Company:
             dept.list_employees()
 
 
-# Usage Example
+# start the program
 company = Company("Tech Corp")
 company.add_department("Engineering")
 company.add_department("HR")
-company.add_employee_to_department("Engineering", Employee(101, "Alice", "Engineer", 60000))
-company.add_employee_to_department("HR", Employee(102, "Bob", "HR Manager", 50000))
+company.add_employee_to_department("Engineering", Employee(101, "abdallah", "Engineer", 60000))
+company.add_employee_to_department("HR", Employee(102, "behairy", "HR Manager", 50000))
 company.generate_report()
